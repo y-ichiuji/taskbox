@@ -15,7 +15,7 @@ import { Observable } from 'rxjs';
   `,
 })
 export class TaskListComponent {
-  @Select(TasksState.getAllTasks) tasks$: Observable<Task[]> = new Observable();
+  @Select(TasksState.getAllTasks) tasks$: Observable<Task[]> | undefined;
 
   constructor(private store: Store) {}
 
