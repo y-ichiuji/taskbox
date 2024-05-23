@@ -1,6 +1,6 @@
 
 > taskbox@0.2.0 build-storybook
-> ng run taskbox:build-storybook --output-dir /var/folders/mp/66prmm7x4h73k6nwkn8nysgm0000gp/T/chromatic--20038-V1Dx5IJKad53
+> ng run taskbox:build-storybook --output-dir /var/folders/mp/66prmm7x4h73k6nwkn8nysgm0000gp/T/chromatic--30309-8XYwQNjiqwLo
 
 [0m
 [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
@@ -25,221 +25,172 @@ Node.js version : v20.9.0
 
 Operating system : macOS Unknown
 
-[15:06:00] No configuration file found, switching to CLI flags.
-[15:06:00] Using tsconfig file : /Users/y-ichiuji/git/taskbox/.storybook/tsconfig.json
-[15:06:00] Excluding      : /Users/y-ichiuji/git/taskbox/jest-global-mocks.ts
-[15:06:00] Excluding      : /Users/y-ichiuji/git/taskbox/setup-jest.ts
-[15:06:00] Excluding      : /Users/y-ichiuji/git/taskbox/.storybook/main.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/.storybook/preview.ts
-[15:06:00] Ignoring       : /Users/y-ichiuji/git/taskbox/.storybook/typings.d.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/main.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/polyfills.ts
-[15:06:00] Ignoring       : /Users/y-ichiuji/git/taskbox/src/app/app.component.spec.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/app.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/app.module.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/environments/environment.prod.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/environments/environment.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/stories/Button.stories.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/stories/Header.stories.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/stories/Page.stories.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/stories/User.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/stories/button.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/stories/header.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/stories/page.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/inbox-screen.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/pure-inbox-screen.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/pure-inbox-screen.stories.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/pure-task-list.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/pure-task-list.stories.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/task-list.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/task.component.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/task.module.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/task.stories.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/models/task.model.ts
-[15:06:00] Including      : /Users/y-ichiuji/git/taskbox/src/app/state/task.state.ts
-[15:06:00] Searching package.json file
-[15:06:00] package.json file found
-[15:06:00] Processing package.json dependencies
-[15:06:00] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
-[15:06:00] README.md file found
-[15:06:00] Error during /Users/y-ichiuji/git/taskbox/CHANGELOG read
-[15:06:00] Continuing without CHANGELOG.md file
-[15:06:00] Error during /Users/y-ichiuji/git/taskbox/CONTRIBUTING read
-[15:06:00] Continuing without CONTRIBUTING.md file
-[15:06:00] LICENSE.md file found
-[15:06:00] Error during /Users/y-ichiuji/git/taskbox/TODO read
-[15:06:00] Continuing without TODO.md file
-[15:06:00] Get dependencies data
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/.storybook/preview.ts
-[15:06:00] found          : preview
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/main.ts
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/polyfills.ts
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/app.component.ts
-[15:06:00] found          : AppComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/app.module.ts
-[15:06:00] found          : AppModule
-[15:06:00]                : - imports:
-[15:06:00]                : 	- BrowserModule
-[15:06:00]                : 	- TaskModule
-[15:06:00]                : 	- NgxsModule
-[15:06:00]                : 	- NgxsReduxDevtoolsPluginModule
-[15:06:00]                : 	- NgxsLoggerPluginModule
-[15:06:00]                : - declarations:
-[15:06:00]                : 	- AppComponent
-[15:06:00]                : 	- InboxScreenComponent
-[15:06:00]                : 	- PureInboxScreenComponent
-[15:06:00]                : - bootstrap:
-[15:06:00]                : 	- AppComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/environments/environment.prod.ts
-[15:06:00] found          : environment
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/environments/environment.ts
-[15:06:00] found          : environment
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/Button.stories.ts
-[15:06:00] found          : meta
-[15:06:00] found          : Story
-[15:06:00] found          : Primary
-[15:06:00] found          : Secondary
-[15:06:00] found          : Large
-[15:06:00] found          : Small
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/Header.stories.ts
-[15:06:00] found          : meta
-[15:06:00] found          : Story
-[15:06:00] found          : LoggedIn
-[15:06:00] found          : LoggedOut
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/Page.stories.ts
-[15:06:00] found          : meta
-[15:06:00] found          : Story
-[15:06:00] found          : LoggedOut
-[15:06:00] found          : LoggedIn
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/User.ts
-[15:06:00] found          : User
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/button.component.ts
-[15:06:00] found          : ButtonComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/header.component.ts
-[15:06:00] found          : HeaderComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/page.component.ts
-[15:06:00] found          : PageComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/inbox-screen.component.ts
-[15:06:00] found          : InboxScreenComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/pure-inbox-screen.component.ts
-[15:06:00] found          : PureInboxScreenComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/pure-inbox-screen.stories.ts
-[15:06:00] found          : Template
-[15:06:00] found          : Default
-[15:06:00] found          : Error
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/pure-task-list.component.ts
-[15:06:00] found          : PureTaskListComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/pure-task-list.stories.ts
-[15:06:00] found          : Template
-[15:06:00] found          : Default
-[15:06:00] found          : WithPinnedTasks
-[15:06:00] found          : Loading
-[15:06:00] found          : Empty
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/task-list.component.ts
-[15:06:00] found          : TaskListComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/task.component.ts
-[15:06:00] found          : TaskComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/task.module.ts
-[15:06:00] found          : TaskModule
-[15:06:00]                : - imports:
-[15:06:00]                : 	- CommonModule
-[15:06:00]                : 	- NgxsModule
-[15:06:00]                : - exports:
-[15:06:00]                : 	- TaskComponent
-[15:06:00]                : 	- TaskListComponent
-[15:06:00]                : - declarations:
-[15:06:00]                : 	- TaskComponent
-[15:06:00]                : 	- TaskListComponent
-[15:06:00]                : 	- PureTaskListComponent
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/task.stories.ts
-[15:06:00] found          : actionsData
-[15:06:00] found          : Template
-[15:06:00] found          : Default
-[15:06:00] found          : Pinned
-[15:06:00] found          : Archived
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/models/task.model.ts
-[15:06:00] found          : Task
-[15:06:00] parsing        : /Users/y-ichiuji/git/taskbox/src/app/state/task.state.ts
-[15:06:00] found          : actions
-[15:06:00] found          : ArchiveTask
-[15:06:00] found          : PinTask
-[15:06:00] found          : AppError
-[15:06:00] found          : defaultTasks
-[15:06:00] found          : TaskStateModel
-[15:06:00] found          : TasksState
-[15:06:00] -------------------
-[15:06:00] Project statistics 
-[15:06:00] - files      : 26
-[15:06:00] - module     : 2
-[15:06:00] - component  : 9
-[15:06:00] - class      : 5
-[15:06:00] - interface  : 2
-[15:06:00] -------------------
-[15:06:00] Prepare components
-[15:06:00]  ButtonComponent has styleUrls, include them
-[15:06:00]  HeaderComponent has styleUrls, include them
-[15:06:00]  PageComponent has styleUrls, include them
-[15:06:00] Prepare modules
-[15:06:00] Prepare classes
-[15:06:00] Prepare interfaces
-[15:06:00] Prepare miscellaneous
-[15:06:00] Process documentation coverage report
-[15:06:00] Generating documentation in export format json
-[15:06:00] Documentation generated in ./ in 0.254 seconds
-info => Cleaning outputDir: /var/folders/mp/66prmm7x4h73k6nwkn8nysgm0000gp/T/chromatic--20038-V1Dx5IJKad53
+[15:23:45] No configuration file found, switching to CLI flags.
+[15:23:45] Using tsconfig file : /Users/y-ichiuji/git/taskbox/.storybook/tsconfig.json
+[15:23:45] Excluding      : /Users/y-ichiuji/git/taskbox/jest-global-mocks.ts
+[15:23:45] Excluding      : /Users/y-ichiuji/git/taskbox/setup-jest.ts
+[15:23:45] Excluding      : /Users/y-ichiuji/git/taskbox/.storybook/main.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/.storybook/preview.ts
+[15:23:45] Ignoring       : /Users/y-ichiuji/git/taskbox/.storybook/typings.d.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/main.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/polyfills.ts
+[15:23:45] Ignoring       : /Users/y-ichiuji/git/taskbox/src/app/app.component.spec.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/app.component.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/environments/environment.prod.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/environments/environment.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/app.module.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/stories/Button.stories.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/stories/Header.stories.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/stories/Page.stories.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/stories/User.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/stories/button.component.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/stories/header.component.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/stories/page.component.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/inbox-screen.component.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/pure-task-list.component.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/task-list.component.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/pure-task-list.stories.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/task.module.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/task.component.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/task.stories.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/models/task.model.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/state/task.state.ts
+[15:23:45] Including      : /Users/y-ichiuji/git/taskbox/src/app/components/pure-inbox-screen.component.ts
+[15:23:45] Searching package.json file
+[15:23:45] package.json file found
+[15:23:45] Processing package.json dependencies
+[15:23:45] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[15:23:45] README.md file found
+[15:23:45] Error during /Users/y-ichiuji/git/taskbox/CHANGELOG read
+[15:23:45] Continuing without CHANGELOG.md file
+[15:23:45] Error during /Users/y-ichiuji/git/taskbox/CONTRIBUTING read
+[15:23:45] Continuing without CONTRIBUTING.md file
+[15:23:45] LICENSE.md file found
+[15:23:45] Error during /Users/y-ichiuji/git/taskbox/TODO read
+[15:23:45] Continuing without TODO.md file
+[15:23:45] Get dependencies data
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/.storybook/preview.ts
+[15:23:46] found          : preview
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/main.ts
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/polyfills.ts
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/app.component.ts
+[15:23:46] found          : AppComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/environments/environment.prod.ts
+[15:23:46] found          : environment
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/environments/environment.ts
+[15:23:46] found          : environment
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/app.module.ts
+[15:23:46] found          : AppModule
+[15:23:46]                : - imports:
+[15:23:46]                : 	- BrowserModule
+[15:23:46]                : 	- TaskModule
+[15:23:46]                : 	- NgxsModule
+[15:23:46]                : 	- NgxsReduxDevtoolsPluginModule
+[15:23:46]                : 	- NgxsLoggerPluginModule
+[15:23:46]                : - declarations:
+[15:23:46]                : 	- AppComponent
+[15:23:46]                : 	- InboxScreenComponent
+[15:23:46]                : 	- PureInboxScreenComponent
+[15:23:46]                : - bootstrap:
+[15:23:46]                : 	- AppComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/Button.stories.ts
+[15:23:46] found          : meta
+[15:23:46] found          : Story
+[15:23:46] found          : Primary
+[15:23:46] found          : Secondary
+[15:23:46] found          : Large
+[15:23:46] found          : Small
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/Header.stories.ts
+[15:23:46] found          : meta
+[15:23:46] found          : Story
+[15:23:46] found          : LoggedIn
+[15:23:46] found          : LoggedOut
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/Page.stories.ts
+[15:23:46] found          : meta
+[15:23:46] found          : Story
+[15:23:46] found          : LoggedOut
+[15:23:46] found          : LoggedIn
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/User.ts
+[15:23:46] found          : User
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/button.component.ts
+[15:23:46] found          : ButtonComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/header.component.ts
+[15:23:46] found          : HeaderComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/stories/page.component.ts
+[15:23:46] found          : PageComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/inbox-screen.component.ts
+[15:23:46] found          : InboxScreenComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/pure-task-list.component.ts
+[15:23:46] found          : PureTaskListComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/task-list.component.ts
+[15:23:46] found          : TaskListComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/pure-task-list.stories.ts
+[15:23:46] found          : Template
+[15:23:46] found          : Default
+[15:23:46] found          : WithPinnedTasks
+[15:23:46] found          : Loading
+[15:23:46] found          : Empty
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/task.module.ts
+[15:23:46] found          : TaskModule
+[15:23:46]                : - imports:
+[15:23:46]                : 	- CommonModule
+[15:23:46]                : 	- NgxsModule
+[15:23:46]                : - exports:
+[15:23:46]                : 	- TaskComponent
+[15:23:46]                : 	- TaskListComponent
+[15:23:46]                : - declarations:
+[15:23:46]                : 	- TaskComponent
+[15:23:46]                : 	- TaskListComponent
+[15:23:46]                : 	- PureTaskListComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/task.component.ts
+[15:23:46] found          : TaskComponent
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/task.stories.ts
+[15:23:46] found          : actionsData
+[15:23:46] found          : Template
+[15:23:46] found          : Default
+[15:23:46] found          : Pinned
+[15:23:46] found          : Archived
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/models/task.model.ts
+[15:23:46] found          : Task
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/state/task.state.ts
+[15:23:46] found          : actions
+[15:23:46] found          : ArchiveTask
+[15:23:46] found          : PinTask
+[15:23:46] found          : AppError
+[15:23:46] found          : defaultTasks
+[15:23:46] found          : TaskStateModel
+[15:23:46] found          : TasksState
+[15:23:46] parsing        : /Users/y-ichiuji/git/taskbox/src/app/components/pure-inbox-screen.component.ts
+[15:23:46] found          : PureInboxScreenComponent
+[15:23:46] -------------------
+[15:23:46] Project statistics 
+[15:23:46] - files      : 25
+[15:23:46] - module     : 2
+[15:23:46] - component  : 9
+[15:23:46] - class      : 5
+[15:23:46] - interface  : 2
+[15:23:46] -------------------
+[15:23:46] Prepare components
+[15:23:46]  ButtonComponent has styleUrls, include them
+[15:23:46]  HeaderComponent has styleUrls, include them
+[15:23:46]  PageComponent has styleUrls, include them
+[15:23:46] Prepare modules
+[15:23:46] Prepare classes
+[15:23:46] Prepare interfaces
+[15:23:46] Prepare miscellaneous
+[15:23:46] Process documentation coverage report
+[15:23:46] Generating documentation in export format json
+[15:23:46] Documentation generated in ./ in 0.259 seconds
+info => Cleaning outputDir: /var/folders/mp/66prmm7x4h73k6nwkn8nysgm0000gp/T/chromatic--30309-8XYwQNjiqwLo
 
 info => Loading presets
 info => Building manager..
-info => Manager built (236 ms)
+info => Manager built (169 ms)
 info => Building preview..
-info => Copying static files: /Users/y-ichiuji/git/taskbox/node_modules/@storybook/manager/static at /var/folders/mp/66prmm7x4h73k6nwkn8nysgm0000gp/T/chromatic--20038-V1Dx5IJKad53/sb-common-assets
+info => Copying static files: /Users/y-ichiuji/git/taskbox/node_modules/@storybook/manager/static at /var/folders/mp/66prmm7x4h73k6nwkn8nysgm0000gp/T/chromatic--30309-8XYwQNjiqwLo/sb-common-assets
 info Using Babel compiler
 info Addon-docs: using MDX2
 info => Using implicit CSS loaders
 info => Using angular browser target options from "taskbox:build"
 info => Using angular project with "tsConfig:/Users/y-ichiuji/git/taskbox/.storybook/tsconfig.json"
 info => Using default Webpack5 setup
-WARN /Users/y-ichiuji/git/taskbox/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/app/components/inbox-screen.component.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/main.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/polyfills.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/stories/Button.stories.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/stories/Header.stories.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/stories/Page.stories.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/stories/User.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/stories/button.component.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/stories/header.component.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN /Users/y-ichiuji/git/taskbox/src/stories/page.component.ts is part of the TypeScript compilation but it's unused.
-WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
-WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
-WARN This can impact web performance.
-WARN Assets: 
-WARN   493.13de3bfa.iframe.bundle.js (816 KiB)
-WARN   841.2ddd4272.iframe.bundle.js (583 KiB)
-WARN   224.dc7dea3a.iframe.bundle.js (2.53 MiB)
-WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
-WARN Entrypoints:
-WARN   main (2.63 MiB)
-WARN       runtime~main.9f69aba6.iframe.bundle.js
-WARN       224.dc7dea3a.iframe.bundle.js
-WARN       main.fe90e7dcf91500334f95.css
-WARN       main.d2d4cf7b.iframe.bundle.js
-WARN 
-info => Preview built (25 s)
-info => Output directory: /var/folders/mp/66prmm7x4h73k6nwkn8nysgm0000gp/T/chromatic--20038-V1Dx5IJKad53
